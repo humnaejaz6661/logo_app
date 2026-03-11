@@ -43,7 +43,7 @@ class RegisterComponents {
       onPressed: onPressed,
       style: ElevatedButton.styleFrom(
         fixedSize: Size(300, 50),
-        backgroundColor: const Color(0xFF8489FC),
+        backgroundColor: Color(0xFF8489FC),
         foregroundColor: Colors.white,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(10),

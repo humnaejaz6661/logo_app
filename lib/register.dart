@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
-import 'package:logo_app/login.dart';
+import 'package:logo_app/login/login.dart';
 
 class RegisterPage extends StatelessWidget {
   final _formKey =

@@ -43,13 +43,13 @@ class _MyHomePageState extends State<SplashScreen> {
             ),
           ),
           Positioned(
-            bottom: 10,
-            right: 10,
+            bottom: 0,
+            right: 0,
             child: SvgPicture.asset('assets/images/Ellipse 1.svg'),
           ),
           Positioned(
-            bottom: 15,
-            right: 10,
+            bottom: 0,
+            right: 0,
             child: SvgPicture.asset('assets/images/Ellipse 2.svg'),
           ),
         ],

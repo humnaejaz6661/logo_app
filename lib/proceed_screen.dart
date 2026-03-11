@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
-import 'package:logo_app/login.dart';
+import 'package:logo_app/login/login.dart';
 
 class ProceedScreen extends StatelessWidget {
   const ProceedScreen({super.key});
@@ -14,7 +14,7 @@ class ProceedScreen extends StatelessWidget {
         toolbarHeight: 70,
         automaticallyImplyLeading: false,
         title: Padding(
-          padding: const EdgeInsets.only(top: 50, left: 12),
+          padding: EdgeInsets.only(top: 50, left: 12),
           child: Text("Select One To Proceed",
               style: TextStyle(fontWeight: FontWeight.bold)),
         ),
@@ -54,7 +54,7 @@ class ProceedScreen extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top: 10, left: 20),
+                    padding: EdgeInsets.only(top: 10, left: 20),
                     child: Text(
                       "Build a Startup",
                       style: TextStyle(
@@ -67,7 +67,7 @@ class ProceedScreen extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top: 10, left: 20),
+                    padding: EdgeInsets.only(top: 10, left: 20),
                     child: SizedBox(
                       width: 160,
                       child: Text(
@@ -86,7 +86,7 @@ class ProceedScreen extends StatelessWidget {
                     height: 22,
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(left: 18),
+                    padding: EdgeInsets.only(left: 18),
                     child: ElevatedButton(
                         onPressed: () {},
                         style: ElevatedButton.styleFrom(
@@ -154,7 +154,7 @@ class ProceedScreen extends StatelessWidget {
                     ],
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.all(6.0),
+                    padding: EdgeInsets.all(6.0),
                     child: SvgPicture.asset(
                       'assets/images/27. Working.svg',
                       fit: BoxFit.cover,

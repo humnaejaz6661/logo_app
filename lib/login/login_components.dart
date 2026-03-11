@@ -38,7 +38,7 @@ class LoginComponents {
 
   static Widget loginButton({
     required String text,
-    required VoidCallback onPressed,
+    required VoidCallback onPressed, //takes no arguments and return nothing
   }) {
     return ElevatedButton(
       onPressed: onPressed,

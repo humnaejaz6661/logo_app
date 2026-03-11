@@ -6,10 +6,8 @@ import 'package:logo_app/home/home.dart';
 import 'package:logo_app/login/login_components.dart';
 import 'package:logo_app/register/register.dart';
 
-import 'package:logo_app/login/login_components.dart';
-
 // login stores the function , ye function haa but abhi execute nhi krna is ko(address of the function/ reference of the fn)
-//  login() run functiona completely
+//  login() run function completely
 
 class Login extends StatelessWidget {
   final _formKey =
@@ -106,8 +104,6 @@ class Login extends StatelessWidget {
                           return null;
                         },
                       ),
-
-                      /// PASSWORD FIELD
                       LoginComponents.customTextField(
                         hintText: "Password",
                         controller: passwordcontroller,
@@ -123,7 +119,6 @@ class Login extends StatelessWidget {
                           return null;
                         },
                       ),
-
                       SizedBox(
                         height: 20,
                       ),
@@ -138,7 +133,7 @@ class Login extends StatelessWidget {
                         },
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(top: 13),
+                        padding: EdgeInsets.only(top: 13),
                         child: Text(
                           "Forget Password?",
                           style: TextStyle(

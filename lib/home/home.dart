@@ -106,7 +106,7 @@ class _HomePageState extends State<HomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        backgroundColor: const Color(0xFF8489FC),
+        backgroundColor: Color(0xFF8489FC),
         shape: CircleBorder(),
         child: Icon(Icons.add, color: Colors.white, size: 28),
       ),
@@ -116,7 +116,7 @@ class _HomePageState extends State<HomePage> {
         height: 80,
         color: Colors.white,
         notchMargin: 10,
-        shape: const CircularNotchedRectangle(),
+        shape: CircularNotchedRectangle(),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
